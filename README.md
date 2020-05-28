@@ -8,7 +8,7 @@ If you want to run this on iOS you should fix the issue connection with the came
 ## Run
 
 ```bash
-xhost +local
+xhost +local:
 docker-compose up
 ```
 if you want to run the example vide you should override or change the docker-compose.command for this `python skindetector.py --video video/skin_example.mov`

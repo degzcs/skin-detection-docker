@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile
     command: python skindetector.py
-    image: cv-goniometer:dev
+    image: skin-detector:dev
     devices:
       - /dev/video0:/dev/video0
     environment:
