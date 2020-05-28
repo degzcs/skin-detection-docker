@@ -2,7 +2,8 @@
 This implementation of skin detection was extracted from Adrian Rosebrok blog [here](https://www.pyimagesearch.com/2014/08/18/skin-detection-step-step-example-using-python-opencv/)
 
 ## Notes
-The docker version of this project was tested on Ubuntu 2020. In order that it works in IOS we should fix the issue with the `/dev/video0` device
+The docker version of this project was tested on Ubuntu 2020.
+If you want to run this on iOS you should fix the issue connection with the camera (`/dev/video0` device)
 
 ## Run
 
